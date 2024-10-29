@@ -1,9 +1,13 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 function App() {
   return (
     <div>
-      <h1>Bienvenido a Movie Streamer App</h1>
+      <Header title="Movie Streamer App"/>
+      <Footer message="All rights reserved 2024"/>
     </div>
   )
 }
 
-export default App
+export default App;
