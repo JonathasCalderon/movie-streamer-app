@@ -7,7 +7,7 @@ export default function MovieList() {
 
   useEffect(() => {
     try {
-      fetch('https://api.themoviedb.org/3/movie/popular?api_key=4d913213a39bec17e8e56ca5b98341af')
+      fetch('https://api.themoviedb.org/3/movie/popular?api_key=')
         .then(response => response.json())
         .then(data => {
           setMovies(data.results);
