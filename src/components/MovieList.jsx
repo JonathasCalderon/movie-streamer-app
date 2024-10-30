@@ -18,6 +18,10 @@ export default function MovieList() {
     }
   }, []);
 
+  if(loading) {
+    return <p>Loading</p>
+  }
+
   return (
     <div>
       {movies.map(({id, title}) => (
